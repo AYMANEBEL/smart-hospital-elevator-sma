@@ -1,0 +1,27 @@
+SMART HOSPITAL MOBILITY SMA — V6 COMMAND CENTER
+=================================================
+
+1) Vérifier Java et Maven :
+   java -version
+   mvn -version
+
+2) Dans le dossier du projet :
+   run.bat
+
+   ou :
+   mvn clean compile exec:java -Dexec.mainClass=com.smartelevator.Main
+
+3) Pour la démonstration :
+   - ouvrir LIVE
+   - lancer « PMR + visiteur »
+   - observer la mission focus, le digital twin et l'Agent Mesh
+   - lancer « Urgence médicale »
+   - simuler une PANNE sur un ascenseur
+   - ouvrir AGENTS pour montrer Contract-Net / ACL
+   - utiliser le bouton plein écran dans la barre latérale pour la présentation
+
+4) Générer le JAR :
+   build.bat
+
+   puis :
+   java -jar target\smart-elevator-sma-1.0.0.jar

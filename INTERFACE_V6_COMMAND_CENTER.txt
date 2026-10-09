@@ -1,0 +1,27 @@
+SMART HOSPITAL MOBILITY — INTERFACE V6 COMMAND CENTER
+======================================================
+
+Cette version change complètement la hiérarchie visuelle de l’application.
+
+1. LIVE OPERATIONS
+- Digital twin hospitalier grand format
+- 11 niveaux / 3 ascenseurs
+- animation visuelle lissée des cabines
+- patients : normal, personne âgée, PMR, urgence
+- mission active avec trajet, priorité, attente, affectation et progression
+- Agent Mesh ACL animé en bas de la scène
+
+2. MISSIONS
+- historique complet
+- indicateurs de qualité de service
+- explication de la priorité, fairness, allocation et résilience
+
+3. AGENTS
+- réseau visuel des agents JADE
+- messages REQUEST / CFP / PROPOSE / ACCEPT
+- logs ACL détaillés
+
+4. PRESENTATION MODE
+Le bouton plein écran dans la barre latérale ouvre uniquement la scène live afin de présenter le projet comme une vraie application de supervision.
+
+La logique SMA n'a pas été remplacée : les vues utilisent AppState, lui-même mis à jour par les agents JADE.

@@ -1,0 +1,11 @@
+FIX MAVEN / JADE
+================
+
+Si vous aviez l erreur PKIX / certificate_unknown avec https://jade.tilab.com/maven/,
+ce projet utilise maintenant JADE 4.3 depuis Maven Central. Aucun depot TILAB n est necessaire.
+
+Commandes :
+  mvn -U clean compile
+  mvn exec:java -Dexec.mainClass=com.smartelevator.Main
+
+Si Maven a memorise un ancien echec, -U force une nouvelle resolution.
